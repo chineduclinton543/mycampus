@@ -1,0 +1,17 @@
+{
+  "name": "mycampus-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public website for the My campus app: home page, Privacy Notice, Terms of Service and Refund Policy.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "preview": "npx serve@14.2.4 out",
+    "sync-legal": "cp ../mobile/src/lib/legal.js lib/legal.js"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.1.10",
+    "react-dom": "19.1.10"
+  }
+}
