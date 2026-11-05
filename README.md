@@ -7,7 +7,7 @@ Built with Next.js (React) as a static export, so every page is plain HTML that 
 
 ```bash
 npm install
-npm run dev            # http://localhost:3000/mycampus/
+npm run dev            # http://localhost:3000/
 npm run build          # writes the finished site to out/
 ```
 

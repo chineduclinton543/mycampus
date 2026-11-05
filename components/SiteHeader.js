@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { asset } from "../lib/site";
+import ThemeToggle from "./ThemeToggle";
 
 export default function SiteHeader() {
   return <header className="site-header">
@@ -11,6 +12,7 @@ export default function SiteHeader() {
         <Link href="/#faq">FAQ</Link>
         <Link href="/privacy/">Privacy</Link>
       </nav>
+      <ThemeToggle />
     </div>
   </header>;
 }

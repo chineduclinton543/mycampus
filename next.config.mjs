@@ -1,7 +1,7 @@
 // Static export: `npm run build` writes plain HTML for every page into out/, so the pages show their full text
 // without JavaScript (Google's OAuth review checks this) and can be hosted anywhere, including GitHub Pages.
-// BASE_PATH is the folder the site lives under: "/mycampus" for https://<user>.github.io/mycampus/, "" for its own domain.
-const basePath = process.env.BASE_PATH ?? "/mycampus";
+// BASE_PATH is the folder the site lives under: "" on its own domain (mycampusapp.com.ng), "/mycampus" for https://<user>.github.io/mycampus/.
+const basePath = process.env.BASE_PATH ?? "";
 
 /** @type {import('next').NextConfig} */
 export default {

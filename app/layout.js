@@ -1,5 +1,6 @@
 import SiteFooter from "../components/SiteFooter";
 import SiteHeader from "../components/SiteHeader";
+import { themeScript } from "../lib/theme";
 import "./globals.css";
 
 export const metadata = {
@@ -8,8 +9,9 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return <html lang="en">
+  return <html lang="en" suppressHydrationWarning>
     <head>
+      <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       {/* The app's own typeface; the CSS falls back to system fonts if it can't load. */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
