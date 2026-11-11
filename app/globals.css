@@ -153,3 +153,7 @@ h1, h2, h3 { font-weight: 800; letter-spacing: -0.03em; }
 @media (prefers-reduced-motion: no-preference) {
   .btn, .site-nav a { transition: background-color .15s ease, color .15s ease; }
 }
+
+/* Open-in-app page (shared links) */
+.open-card { max-width: 620px; padding-block: 56px 72px; }
+.open-card h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.08; margin: 0 0 14px; }

@@ -12,6 +12,7 @@ export default function SiteFooter() {
         <Link href="/privacy/">Privacy Notice</Link>
         <Link href="/terms/">Terms of Service</Link>
         <Link href="/refunds/">Refund Policy</Link>
+        <Link href="/delete-account/">Delete your account</Link>
       </nav>
       <small>© 2026 {OPERATOR.name}</small>
     </div>
